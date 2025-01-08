@@ -1,0 +1,29 @@
+#chat-container {
+    width: 60%;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#input-container {
+    display: flex;
+}
+
+#input-container input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#input-container button {
+    padding: 8px 15px;
+}
+
+#results-container{
+  margin-top: 20px;
+}

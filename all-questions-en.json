@@ -1,0 +1,72 @@
+[
+    {
+        "id": 0,
+        "question": "Have you already received the child benefit in the current year?",
+        "options": ["Yes", "No"]
+    },
+    
+    {
+        "id": 1,
+        "question": "Which of the following categories do you belong to?",
+        "options": ["Greek citizen", 
+                    "Citizen of EU Member States, and citizens of European Economic Area (EEA) Member States",
+                    "Citizen of countries included in the European Convention ratified by Law 4017/1959 (Government Gazette 246/1959, A')",
+                    "Third-country nationals unable to work due to a work accident on Greek territory, or family members of Greek citizens or EU citizens, as defined in Article 20(2) of Presidential Decree 106/2007 (Government Gazette 135 A'), Article 85(4) of Law 4251/2014 (Government Gazette 80 A'), and Article 31(1) of Law 4540/2018 (Government Gazette 91 A')",
+                    "Recognized refugees permanently residing in Greece, whose stay status in Greece is governed by the provisions of the 1951 Convention relating to the Status of Refugees [Presidential Decree 3989/1959 (Government Gazette 201 A')], as amended by the New York Protocol of 1967 on the Status of Refugees [Law 389/1968 (Government Gazette 125 A')]",
+                    "stateless person whose status of residence in Greece is governed by the provisions of the 1954 Convention relating to the Status of Stateless Persons.",
+                    "Holder of humanitarian status",
+                    "Citizen of another country"
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Have you been residing permanently and legally in the country for the past five (5) years?",
+        "options": ["Yes", "No"]
+    },
+    {
+        "id": 3,
+        "question": "Have you been residing permanently and legally in the country for the past twelve (12) years?",
+        "options": ["Yes", "No"]
+    },
+    {
+        "id": 4,
+        "question": "Are the residence permits valid during the year and at the time of submitting the application?",
+        "options": ["Yes","No"]
+    },
+    {
+        "id": 5,
+        "question": "Which of the following income categories do you belong to?",
+        "options": ["Category A: up to 6,000 euros",
+                    "Category B: from 6,001 euros to 10,000 euros",
+                    "Category C: from 10,001 euros to 15,000 euros"
+        ]
+    },
+    {
+        "id": 6,
+        "question": "How many dependent children do you have?",
+        "options": ["One (1)",
+                   "Two (2)",
+                   "Three (3) or more"
+        ]
+    },
+    {"id": 7,
+        "question": "Do you have a child belonging to the following category: Unmarried children who come from a marriage, whether natural, adopted, or recognised, not exceeding the age of 18 or 19, provided that they are in secondary education. 31 December of the year of the children’s birth shall be considered their date of birth?",
+        "options": ["Yes","No"]
+
+    },
+    {"id": 8,
+        "question": "Do you have a child belonging to the following category: In the case of dependent children for whom the conditions for attending compulsory education are met, the benefit shall be granted on the condition that, on the one hand, they are enrolled in a school for the current school year and, on the other hand, that they have sufficiently attended school in the immediately preceding school year?",
+        "options": ["Yes","No"]
+
+    },
+    {"id": 9,
+        "question": "Do you have a child belonging to the following category: Children who have reached the age of 18, if they are attending university or a technological educational institute or a recognised college or a public or private vocational training institute or are in their Post-Secondary Education Year – Apprenticeship Class. Tertiary or Higher Education includes State Tertiary or Higher Education schools (Military, Police, Navy, Merchant Marine, etc.), as well as recognised institutions Abroad?",
+        "options": ["Yes","No"]
+
+    },
+    {"id": 10,
+        "question": "Do you have a child belonging to the following category: Children with a disability rate of 67% or more, until the end of the year in which they turn 24?",
+        "options": ["Yes","No"]
+
+    }
+]
