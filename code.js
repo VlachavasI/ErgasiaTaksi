@@ -37,12 +37,12 @@ function displayQuestion() {
       submitButton.style.display = 'none'; // hide submit button
       
       const optionsContainer = document.createElement('div');
-      optionsContainer.classList.add('options-container')
+      optionsContainer.classList.add('govgr-button-group');
       
       currentQuestion.options.forEach((option, index)=>{
           const optionButton = document.createElement('button');
           optionButton.textContent = option;
-          optionButton.classList.add('option-button');
+          optionButton.classList.add('govgr-btn','govgr-btn-secondary');
 
           optionButton.addEventListener('click',()=>{
             answers[currentQuestion.id] = option;
@@ -64,6 +64,7 @@ function displayQuestion() {
 function displayResults(){
   const heading = document.createElement('h2');
   heading.textContent= "Your Answers:";
+  heading.classList.add('govgr-heading-m');
   resultsContainer.appendChild(heading)
 
 
@@ -72,9 +73,12 @@ function displayResults(){
 
     const listItem = document.createElement('li');
     listItem.textContent = `Question ${questionData.id +1}: ${questionData.question} `;
+    listItem.classList.add('govgr-list__item');
+
     const answerItem = document.createElement('li');
     answerItem.textContent = `   Answer: ${answer}`;
-
+      answerItem.classList.add('govgr-list__item', 'govgr-pl-4');
+    
     resultsList.appendChild(listItem);
     resultsList.appendChild(answerItem);
 
